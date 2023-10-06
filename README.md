@@ -1,2 +1,2 @@
-# CapsulaAzul
- Pàgina Projecte Inicial M12
+# Farmacia Capsula Azul
+ Pagina del proyecto inicial de M12
