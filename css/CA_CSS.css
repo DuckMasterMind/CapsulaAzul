@@ -134,6 +134,20 @@ h2{
     color: white;
     text-decoration-line: none;
 }
+hr {
+    color: black;
+    border: none;
+    background-color: black;
+    height: 2px;
+}
+
+.Post_Date {
+    margin-left: 85%;
+    
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////7 */
 @media only screen and (max-width: 1000px) {
     nav {
         background-color: rgb(243, 243, 243);
