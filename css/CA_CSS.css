@@ -14,6 +14,20 @@ nav {
 body {
    background-color: white;
 }
+datalist {
+   background-color: blue; 
+   position: absolute;
+   border: 0 none;
+   overflow-x: hidden;
+   overflow-y: auto;
+   
+}
+
+datalist option {
+    font-size: 5em;
+}
+
+
 header{
     height: 13em;
 }
