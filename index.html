@@ -4,39 +4,48 @@
     <meta charset="UTF-8">
     <link rel="Icon" type="image/x-icon" href="fotos\Logo_Medico_V9-removebg-preview.png">
     <meta name="title" content="Cápsula Azul">
+    <meta name="description" content="formularios para como matarse">
+    <meta name="keywords" content="HTML, Forms, StealData">
+    <meta name="author" content="Eric Schwarz">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css\CA_CSS.css">
     <title>C á p s u l a &ensp;A z u l</title>
 </head>
 <body>
-    <img class="background" src="fotos\Medico_Web_Background.png">
+    
     <nav>
     <img class="nav_logo" src="fotos\Logo_Medico_V9-removebg-preview.png"> 
     <a href="index.html"><p class="Nav_1">Inicio</p></a> 
     <a href="Online_Shop.html"><p class="Nav_2">Comprar</p></a>
     <a><p class="Nav_3">Tiendas</p></a>
     <a><p class="Nav_4">Nosotros</p></a> 
-    <a><p class="Nav_5">Noticias</p></a>   
+    <!-- <a><p class="Nav_5">Noticias</p></a>    -->
+    <select name="" class="Nav_5" onchange="location.href=this.value">
+        <option value="1"><a href="#">Tiendas</a></option>
+        <option value="2"><a href="#">Granollers</a></option>
+        <option value="2"><a href="#">Barcelona</a></option>
+        <option value="2"><a href="#">Madrid</a></option>
+        <option value="2"><a href="#">Sabadell</a></option>
+    </select>
     </nav>
     <main>
         <header>
             <h1>Cápsula Azul, tu farmacia de confianza</h1>
-
+            <!-- <img class="background" src="fotos\Medico_Web_Background.png">  -->
         </header>
         <article class="Main_Left">
             <img class="Main_Left_Foto" src="https://i.pinimg.com/originals/fe/38/5f/fe385f01bbce84f587380ce4f35eb58d.jpg" 
 			alt="Farmacia">
         </article>
         <article class="Main_Right">
-            <!-- Fix date not being aligned with the "Noticia" title  -->
-            <h2>Noticia</h2><p class="Post_Date">11/10/2023</p>
             <h2>Recien hemos abierto nuestra primera tienda en Granollers!</h2>
             <p class="article_P">Puedes comprar los productos que más necesitas de nuestra tienda interactiva online, 
-			todos los productos a pocos clicks de lejos. Y si no puedes ir a recoger los productos, te los enviamos a tu domicilio.</p>
-            <a class="Shop_Button" href="Online_Shop">Ir a Tienda Online</a>
+			todos los productos a pocos clicks de lejos. <br> Y si no puedes ir a recoger los productos, te los enviamos a tu domicilio.</p>
+            <a class="Shop_Button" href="Online_Shop.html">Ir a Tienda Online</a>
+            <a class="Shop_Button" href="login.html">Login</a>
             
         </article>
-
+       
     </main>
 </body>
 </html>
