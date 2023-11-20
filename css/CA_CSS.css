@@ -1,9 +1,8 @@
 /* /////////////////////TESTING CUSTOM FONTS////////////// */
-@font-face {
-    font-family: "TitleFont";
-    src: url(Wibbles-6awo.ttf);
-  }
-
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
 
 
 /* ////////////////////////////////////Main COmponents////////////// */
@@ -26,24 +25,9 @@ body {
       background: rgb(21,87,114);
       background: linear-gradient(90deg, rgba(21,87,114,1) 0%, rgba(0,54,79,1) 50%, rgba(21,87,114,1) 100%);
 }
-datalist {
-   background-color: blue; 
-   position: absolute;
-   border: 0 none;
-   overflow-x: hidden;
-   overflow-y: auto;
-}
-
-datalist option {
-    font-size: 5em;
-}
-
 
 header{
     height: 15em;
-    
-    
-
 }
 
 h1{
@@ -76,6 +60,7 @@ h1{
     font-size: x-large;
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 .Nav_2 {
     position: absolute;
@@ -83,6 +68,7 @@ h1{
     font-size: x-large;
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 .Nav_3 {
     position: absolute;
@@ -90,6 +76,7 @@ h1{
     font-size: x-large;
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 .Nav_4 {
     position: absolute;
@@ -97,6 +84,7 @@ h1{
     font-size: x-large;
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 .Nav_5 {
     position: absolute;
@@ -106,6 +94,7 @@ h1{
     font-size: x-large;
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 /* ///////////////////////////////////////////////////////////////Hover Effects for nav bar/////////// */
 .Nav_1:hover {
@@ -125,32 +114,24 @@ h1{
 }
 
 /* ////////////////////////////////////////////Main Pages/////////////// */
-
-.Main_Left {
+.presentationPost {
     background-color: white;
-    height: 500px;
-    width: 500px;
-    margin-left: 3%;
-    margin-top: 10em;
-    position: absolute;
+    width: 90%;
+    padding: 1em;
+    margin-left: 3em;
+    margin-top: 5em;
     box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);
-}
-
-.Main_Right {
-    background-color: white;
-    height: 500px;
-    width: 57em;
-    margin-left: 35em;
-    margin-top: 10em;
-    position: absolute;
-    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);
+    
 }
 
 h2{
     margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
 }
 .article_P {
     margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Main_Left_Foto {
@@ -160,13 +141,18 @@ h2{
     margin-top: 1.5em;
 }
 .Shop_Button {
-    padding: 12px;
+    display:inline-block;
+    padding: 0.8em;
     background-color: rgb(0, 119, 178);
     border-radius: 20px;
     margin-left: 3%;
     font-weight: bolder;
     color: white;
     text-decoration-line: none;
+    margin-top: 20em ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2em;
+    
 }
 hr {
     color: black;
@@ -174,13 +160,22 @@ hr {
     background-color: black;
     height: 2px;
 }
-
-.Post_Date {
-    margin-left: 85%;
+footer {
+    display: block;
+    background-color: black;
     
+    height: 10em;
+    width: 94.92em;
+    margin-top: 3em;
+    
+
 }
-
-
+div {
+    display: inline-block;
+    color: white;
+    margin-left: 10%;
+    padding: 1em;
+}
 /* ////////////////////////////////////////////////////////////////////////////////////7 */
 @media only screen and (max-width: 1000px) {
     nav {
