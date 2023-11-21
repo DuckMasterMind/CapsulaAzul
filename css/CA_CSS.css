@@ -23,7 +23,7 @@ body {
    /* background-color: #19A7CE;  */
       /* background-color: #146C94;   */
       background: rgb(21,87,114);
-      background: linear-gradient(90deg, rgba(21,87,114,1) 0%, rgba(0,54,79,1) 50%, rgba(21,87,114,1) 100%);
+      background: linear-gradient(90deg, rgb(48, 166, 213) 0%, rgb(67, 130, 160) 50%, rgb(46, 159, 204) 100%);
 }
 
 header{
@@ -61,6 +61,7 @@ h1{
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    margin-top: 2em;
 }
 .Nav_2 {
     position: absolute;
@@ -69,6 +70,7 @@ h1{
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    margin-top: 2em;
 }
 .Nav_3 {
     position: absolute;
@@ -77,6 +79,7 @@ h1{
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    margin-top: 2em;
 }
 .Nav_4 {
     position: absolute;
@@ -85,16 +88,17 @@ h1{
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    margin-top: 2em;
 }
 .Nav_5 {
     position: absolute;
     margin-left: 75%;
-    margin-top: 1em;
     border-style: none;
     font-size: x-large;
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    margin-top: 2em;
 }
 /* ///////////////////////////////////////////////////////////////Hover Effects for nav bar/////////// */
 .Nav_1:hover {
@@ -118,8 +122,8 @@ h1{
     background-color: white;
     width: 90%;
     padding: 1em;
-    margin-left: 3em;
-    margin-top: 5em;
+    margin-left: 4em;
+    margin-top: 8em;
     box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);
     
 }
@@ -128,6 +132,8 @@ h2{
     margin-left: 3%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 .article_P {
     margin-left: 3%;
@@ -175,6 +181,26 @@ div {
     color: white;
     margin-left: 10%;
     padding: 1em;
+}
+#divider{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(0, 119, 178);
+    height: 20em;
+    margin-top: 5em;
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);
+}
+#headPost{
+    height: 2em;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(54, 64, 116);
+}
+.advertismentText{
+    margin-left: 10em;
+    padding: 0.5em;
 }
 /* ////////////////////////////////////////////////////////////////////////////////////7 */
 @media only screen and (max-width: 1000px) {
