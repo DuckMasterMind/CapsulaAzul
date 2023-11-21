@@ -15,6 +15,7 @@ nav {
     padding-top: 1%;
     height: 5em;
     box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);
+    
    
     
 }
@@ -188,7 +189,7 @@ div {
     padding: 0;
     width: 100%;
     background-color: rgb(0, 119, 178);
-    height: 25em;
+    height: 28em;
     margin-top: 5em;
     box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);
 }
@@ -207,7 +208,8 @@ div {
     height: 15em;
 }
 td {
-    width: 23em;
+    width: 21em;
+    text-align: center;
 }
 table {
     margin-left: 18%;
@@ -217,75 +219,11 @@ table {
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     margin-top: 1em;
-    
 }
+
 /* ////////////////////////////////////////////////////////////////////////////////////7 */
 @media only screen and (max-width: 1000px) {
-    nav {
-        background-color: rgb(243, 243, 243);
-        margin-top: 3em; 
-        margin-left: 3em; 
-        margin-right: 3em; 
-        padding-bottom: 1%;
-        padding-top: 1%;
-        height: 20em;
-        width: 90em;
-        box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);   
-    }
-    .Nav_1 {
-       display: none;
-    }
-    .Nav_2 {
-        display: none;
-    }
-    .Nav_3 {
-        display: none;
-    }
-    .Nav_4 {
-        display: none;
-    }
-    .Nav_5 {
-        display: none; 
-    }
-    .nav_logo {
-        height: 23em;
-        width: 23em;
-        position: absolute;
-        
-    }
-    h1{
-        margin-top: 10%;
-        font-size: 125px;
-        letter-spacing: 10px;  
-    }
-    header{
-        height: 20%;
-    }
-    .Main_Left {
-        background-color: white;
-        height: 93em;
-        width: 89em;
-        margin-left: 3%;
-        margin-top: 3%;
-        position: absolute;
-        box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);
-    }
-    
-    .Main_Right {
-        background-color: white;
-        height: 40em;
-        width: 1270px;
-        margin-left: 3%;
-        margin-top: 100em;
-        position: absolute;
-        box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);
-    }
-    .Main_Left_Foto {
-        height: 83em;
-        width: 80em;
-        margin-left: 5%;
-        margin-top: 5%;
-    }
+   
 }
 
 
