@@ -18,6 +18,7 @@ nav {
    
     
 }
+
 body {
    /* background-color: #AFD3E2;  */
    /* background-color: #19A7CE;  */
@@ -187,7 +188,7 @@ div {
     padding: 0;
     width: 100%;
     background-color: rgb(0, 119, 178);
-    height: 20em;
+    height: 25em;
     margin-top: 5em;
     box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);
 }
@@ -201,6 +202,22 @@ div {
 .advertismentText{
     margin-left: 10em;
     padding: 0.5em;
+}
+.dividerIcon {
+    height: 15em;
+}
+td {
+    width: 23em;
+}
+table {
+    margin-left: 18%;
+}
+.dividerTitle {
+    margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-top: 1em;
+    
 }
 /* ////////////////////////////////////////////////////////////////////////////////////7 */
 @media only screen and (max-width: 1000px) {
