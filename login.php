@@ -13,11 +13,7 @@ session_start();
 // Connexión a la base de datos
 $servername = "10.0.3.150";
 $serveruser = "root";
-<<<<<<< HEAD
 $serverpassword = "";
-=======
-$serverpassword = "alemanmaricon";
->>>>>>> 3deac446556497ec8ffdb3ae6b7ee1af394dda38
 $dbname = "capsula_azul";
 $conn = mysqli_connect($servername, $serveruser, $serverpassword, $dbname);
 
@@ -56,7 +52,6 @@ function test_input($data) {
     return $data;
 }
 
-<<<<<<< HEAD
 /*$correo = $password = "";
 //connexio base de dades
         $servername = "localhost";
@@ -109,8 +104,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Mostrar mensaje de error si las credenciales son incorrectas
             $error = "Credenciales incorrectas. Por favor, inténtalo de nuevo.";
         }*/
-=======
->>>>>>> 3deac446556497ec8ffdb3ae6b7ee1af394dda38
 ?>
 
 <body>
