@@ -3,213 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/logon.css">
-    <style>
-        .logon {
-    margin-top: 5em; 
- 
-    background-color: white;  
-    width: 30em;  
-    padding-top: 5em; 
-    padding-bottom: 10em;  
-    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.354);
-}
-
-label {
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h2 {
-    font-size: xx-large;
-}
-
-input {
-    height: 2.5em;
-    width: 22em;
-    padding: 0.2em;
-    margin-top: 0.5em;
-    border-style: none;
-    font-size: large;
-    
-}
-input:focus{
-    outline: none;
-}
-
-input:required { 
-   font-size: xx-large;
-    
-} 
-input::placeholder {
-    font-size: large;
-    
-}
-input::content {
-    font-size: large;
-}
-
-.i_reset {
-   padding: 0.3em;
-   border-radius: 0em;
-   border-style: none;
-   background-color: rgb(240, 248, 255);
-}
-.i_submit {
-    padding: 0.3em;
-    border-radius: 0em;
-    border-style: none;
-    width: 20em;
-    height: 3em;
-    font-size: large;
-    
-    
-}
-.i_submit:hover {
-    background-color: rgb(21,87,114);
-    
-    
-}
-
-footer {
-    background-color: rgb(70, 70, 70);
-    margin-top: 10%;
-    height: 10em;
-    display: block;
-}
-li {
-    color: white;
-}
-ul {
-    margin-left: 10em;
-    display: inline-block;
-
-}
-body{
-    background: rgb(21,87,114);
-background: linear-gradient(90deg, rgba(21,87,114,1) 0%, rgba(0,54,79,1) 50%, rgba(21,87,114,1) 100%);
-}
-
-/* lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll  */
-.dropbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-  /* llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll  */
-
-@media only screen and (max-width: 1000px) { 
-
-    .logon {
-        margin-top: 5em; 
-        background-color: white;  
-        width: 50em;  
-        height: 50em;
-        padding-top: 5em; 
-        padding-bottom: 10em;  
-        box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.354);
-    }
-    
-    .title_logon {
-        font-size: 20em;
-        
-    }
-    
-    h2 {
-        font-size: 5em;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    input {
-        height: 6em;
-        width: 35em;
-        padding: 0.2em;  
-        margin-top: 0.5em;
-        border-style: none;
-        font-size: large;
-        
-    }
-    input:focus{
-        outline: none;
-    }
-    
-    input:required { 
-       font-size: xx-large;
-        
-    } 
-    input::placeholder {
-        font-size: 2em;
-        
-    }
-    
-    
-    
-    .i_submit {
-        padding: 0.3em;
-        border-radius: 0em;
-        border-style: none;
-        width: 40em;
-        height: 7em;
-        font-size: large;
-        
-        
-    }
-    .i_submit:hover {
-        background-color: rgb(21,87,114);
-        
-        
-    }
-    
-    footer {
-        background-color: rgb(70, 70, 70);
-        margin-top: 55%;
-        height: 11em;
-        display: block;
-        margin-left: -1em;
-    }
-    li {
-        color: white;
-    }
-    ul {
-        margin-left: 10em;
-        display: inline-block;
-    
-    }
-}
-
-
-
-    </style>
+    <link rel="stylesheet" href="Css\logon.css">
     <title>Logon Form</title>
 </head>
 
@@ -220,6 +14,11 @@ background: linear-gradient(90deg, rgba(21,87,114,1) 0%, rgba(0,54,79,1) 50%, rg
         $dbname = "capsula_azul";
         //Guardar variables usuario
         $correo = $password = $username = "";
+        //Variable tabla
+        // $insertSQL = "CREATE TABLE `userPagWeb`(
+        //     `USUARIO` varchar(255) DEFAULT NULL,
+        //     `CONTRASENA` varchar(255) DEFAULT NULL,
+        //     `EMAIL` varchar(255) DEFAULT NULL,)";
         // Crear conexio
         $conn = mysqli_connect($servername, $serveruser, $serverpassword, $dbname);
         // Assegurar conexio
@@ -229,7 +28,23 @@ background: linear-gradient(90deg, rgba(21,87,114,1) 0%, rgba(0,54,79,1) 50%, rg
             
         }
         else{
-        //    echo "Connected successfully";
+            echo "Connected successfully";
+        //mysqli_query($conn, $insertSQL);
+               // Crear tabla
+              /* $sql = "CREATE TABLE userpagweb (
+                usernameuser varchar(255) PRIMARY KEY,
+                passworduser VARCHAR(255) NOT NULL,
+                emailuser VARCHAR(255) NOT NULL,
+                reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+                )";
+               if ($conn->query($sql) === TRUE) {
+                   echo "Table created successfully";
+               } 
+               else{
+                
+                   echo "Error creating table: " . $conn->error;
+               }*/
+
         } 
         
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -240,17 +55,17 @@ background: linear-gradient(90deg, rgba(21,87,114,1) 0%, rgba(0,54,79,1) 50%, rg
             $sqlINSERT = "INSERT INTO userpagweb (usernameuser, passworduser, emailuser) VALUES('$username', '$password', '$email')";
         
             if (mysqli_query($conn, $sqlINSERT)) {
-                echo "<script>alert('Cuenta creada correctamente')</script>";
+                echo "New record created successfully";
               } else {
                 echo "Error: " . $sqlINSERT . "<br>" . $conn->error;
               }
-            //echo $email;
-            //echo $password;
-            //echo $username;
+            echo $email;
+            echo $password;
+            echo $username;
 
         }
         else{
-        //    echo " caca";
+            echo " caca";
         }
         
         function test_input($data) {
@@ -293,6 +108,17 @@ background: linear-gradient(90deg, rgba(21,87,114,1) 0%, rgba(0,54,79,1) 50%, rg
     </div>
 
     </center>
+
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+
+
 <footer>
         <ul>
             <li>Contacto:</li> 
