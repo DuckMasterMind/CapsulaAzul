@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/logon.css">
-    <style>
-        .logon {
+    <link rel="stylesheet" href="Css\logon.css">
+    <title>Logon Form</title>
+    <style>.logon {
     margin-top: 5em; 
  
     background-color: white;  
@@ -208,9 +208,7 @@ background: linear-gradient(90deg, rgba(21,87,114,1) 0%, rgba(0,54,79,1) 50%, rg
 }
 
 
-
-    </style>
-    <title>Logon Form</title>
+</style>
 </head>
 
 <?php
@@ -220,7 +218,6 @@ background: linear-gradient(90deg, rgba(21,87,114,1) 0%, rgba(0,54,79,1) 50%, rg
         $dbname = "capsula_azul";
         //Guardar variables usuario
         $correo = $password = $username = "";
-        // Crear conexio
         $conn = mysqli_connect($servername, $serveruser, $serverpassword, $dbname);
         // Assegurar conexio
         if (!$conn) {
@@ -240,13 +237,13 @@ background: linear-gradient(90deg, rgba(21,87,114,1) 0%, rgba(0,54,79,1) 50%, rg
             $sqlINSERT = "INSERT INTO userpagweb (usernameuser, passworduser, emailuser) VALUES('$username', '$password', '$email')";
         
             if (mysqli_query($conn, $sqlINSERT)) {
-                echo "<script>alert('Cuenta creada correctamente')</script>";
+                echo "New record created successfully";
               } else {
                 echo "Error: " . $sqlINSERT . "<br>" . $conn->error;
               }
-            //echo $email;
-            //echo $password;
-            //echo $username;
+            echo $email;
+            echo $password;
+            echo $username;
 
         }
         else{
@@ -293,6 +290,9 @@ background: linear-gradient(90deg, rgba(21,87,114,1) 0%, rgba(0,54,79,1) 50%, rg
     </div>
 
     </center>
+      </div>
+
+
 <footer>
         <ul>
             <li>Contacto:</li> 

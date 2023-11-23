@@ -1,0 +1,185 @@
+/* /////////////////////TESTING CUSTOM FONTS////////////// */
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/* ////////////////////////////////////Main COmponents////////////// */
+nav {
+    background-color: rgb(243, 243, 243);
+    margin-top: 3%; 
+    margin-left: 3%; 
+    margin-right: 3%; 
+    padding-bottom: 1%;
+    padding-top: 1%;
+    height: 5em;
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);   
+}
+body {
+      background: rgb(21,87,114);
+      background: linear-gradient(90deg, rgb(48, 166, 213) 0%, rgb(67, 130, 160) 50%, rgb(46, 159, 204) 100%);
+}
+header{
+    height: 15em;
+}
+h1{
+    margin-top: 10%;
+    font-size: 5em;  
+    z-index: 2;
+    margin-left: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);
+    letter-spacing: 0.15em;
+    width: 90%;
+}
+.background {
+    position: absolute;
+    height: 20em;
+    width: 20em;
+    z-index: -1; 
+}
+.nav_logo {
+    height: 6em;
+    width: 6em;
+    position: absolute;
+    
+}
+.Nav_1 {
+    position: absolute;
+    margin-left: 15%;
+    font-size: x-large;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 1.3em;
+}
+.Nav_2 {
+    position: absolute;
+    margin-left: 30%;
+    font-size: x-large;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 1.3em;
+}
+.Nav_3 {
+    position: absolute;
+    margin-left: 45%;
+    font-size: x-large;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 1.3em;
+}
+.Nav_4 {
+    position: absolute;
+    margin-left: 60%;
+    font-size: x-large;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 1.3em;
+}
+.Nav_5 {
+    position: absolute;
+    margin-left: 75%;
+    border-style: none;
+    font-size: x-large;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 1.3em;
+}
+/* ///////////////////////////////////////////////////////////////Hover Effects for nav bar/////////// */
+.Nav_1:hover {
+    text-decoration-line: underline;
+}
+.Nav_2:hover {
+    text-decoration-line: underline;
+}
+.Nav_3:hover {
+    text-decoration-line: underline;
+}
+.Nav_4:hover {
+    text-decoration-line: underline;
+}
+.Nav_5:hover {
+    text-decoration-line: underline;
+}
+
+/* ////////////////////////////////////////////Main Pages/////////////// */
+
+h2{
+    margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+hr {
+    color: black;
+    border: none;
+    background-color: black;
+    height: 2px;
+}
+footer {
+    display: block;
+    background-color: black;
+    height: 10em;
+    width: 94.92em;
+    margin-top: 3em;
+}
+div {
+    display: inline-block;
+    color: white;
+    margin-left: 10%;
+    padding: 1em;
+}
+
+td {
+    width: 10em;
+    height: 30em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);
+}
+table {
+    margin: 5em;
+    border-spacing: 1em;
+}
+.productImg {
+    width: 20em;
+   
+}
+#headPost {
+    height: 2em;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(54, 64, 116);
+}
+.advertismentText{
+    margin-left: 10em;
+    padding: 0.5em;
+}
+.shopBtn{
+    padding: 1em;
+    background-color: rgb(95, 95, 194);
+    border-radius: 0.5em;
+    margin-left: 25%;
+    margin-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    color: white;
+}
+h4 {
+    margin-bottom: 1em;
+    text-align: center; 
+    font-size: 15pt; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 1em;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////7 */
+@media only screen and (max-width: 1000px) {
+   
+}
