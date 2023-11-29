@@ -224,6 +224,26 @@ table {
     float: right;
     display: inline;
 }
+.article_P_news {
+    margin-left: 3%;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.presentationPost_news {
+    background-color: white;
+    width: 90%;
+    padding: 1em;
+    margin-left: 4em;
+    margin-top: 4em;
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.148);
+}
+.presentationPost_news p {
+    margin-bottom: 2em;
+    
+}
+.ubi {
+    margin-left: 0;
+}
 /* ////////////////////////////////////////////////////////////////////////////////////7 */
 @media only screen and (max-width: 1000px) {
    
